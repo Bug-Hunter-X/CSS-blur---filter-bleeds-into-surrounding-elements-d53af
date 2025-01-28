@@ -1,0 +1,16 @@
+/* blurSolution.css */
+
+.container {
+  width: 200px;
+  height: 200px;
+  background-color: lightgray;
+  overflow: hidden; /* This fixes the blur bleed-out */
+}
+
+.inner {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  margin: 50px auto;
+  filter: blur(5px);
+}
