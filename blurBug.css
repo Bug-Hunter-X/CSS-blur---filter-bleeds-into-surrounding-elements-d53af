@@ -1,0 +1,1 @@
+The CSS property `filter: blur()` is applied to an element, but it unexpectedly affects the surrounding elements. This is due to the `filter` property not respecting the element's boundaries in all browsers or contexts.  The blur effect can bleed out, creating unexpected visual artifacts.
